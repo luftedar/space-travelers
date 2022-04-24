@@ -4,10 +4,8 @@
 
 > This project is for space rockets and missions. You can see available rockets and missions to reserve or join. The project built by using JavaScript, React, Redux,
 Kanban Boards, CSS.
-![image](https://user-images.githubusercontent.com/63560332/146210656-b0870538-fc00-4b0e-89e7-8afa378d3f91.png)
-![image](https://user-images.githubusercontent.com/63560332/146210719-74758a0a-8e8a-44c2-9fff-eb5378b3a579.png)
 
-
+![screenshot](./app_screenshot.png)
 
 ## Live Demo
 
