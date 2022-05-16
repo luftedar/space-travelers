@@ -1,7 +1,6 @@
 /* eslint-disable */
 import { useDispatch } from "react-redux";
 import { bookRocket, cancelRocket } from "../Redux/rockets/rocket";
-import './CSS/Rocket.css';
 
 function Rocket({ rocket }) {
   const dispatch = useDispatch();

@@ -7,9 +7,6 @@ import Navbar from './Components/Navbar';
 import Missions from './Components/Missions';
 import MyProfile from './Components/MyProfile/MyProfile';
 import Rockets from './Components/Rockets';
-import './Components/CSS/Mission.css';
-import './Components/CSS/Navbar.css';
-import './Components/CSS/MyProfile.css';
 
 function App() {
   return (
