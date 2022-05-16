@@ -1,5 +1,6 @@
 import { NavLink } from 'react-router-dom';
 import planet from '../planet.png';
+import '../styles/navbar.scss';
 
 function Navbar() {
   return (

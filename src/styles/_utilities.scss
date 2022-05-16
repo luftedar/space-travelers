@@ -1,0 +1,25 @@
+$main-white: #fefefe;
+$main-purple: #5f29cc;
+$main-black: #311270;
+$main-cyan: #00d084;
+$secondary-cyan: #0693e3;
+$main-grad: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+%flex-box {
+  display: flex;
+}
+
+%flex-box-col {
+  flex-direction: column;
+}
+
+%flex-center {
+  justify-content: center;
+  align-items: center;
+}
