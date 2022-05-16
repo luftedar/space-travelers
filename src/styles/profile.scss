@@ -1,0 +1,35 @@
+@import 'utilities';
+
+.Profile-main {
+  @extend %flex-box;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 50px;
+  font-size: 1.2rem;
+
+  %my-card {
+    width: 500px;
+    border: 1px solid $main-black;
+    padding: 20px;
+    background-image: $secondary-gradient;
+  }
+
+  .My-Missions,
+  .My-Rockets {
+    @extend %my-card;
+
+    h2 {
+      margin-bottom: 25px;
+      color: $main-white;
+    }
+
+    ul{
+      color: $main-white;
+      li {
+        list-style: none;
+        border-bottom: 1px solid $main-black;
+        padding: 10px 5px 15px 5px;
+      }
+    }
+  }
+}

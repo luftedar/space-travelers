@@ -1,0 +1,42 @@
+@import 'utilities';
+
+.missions {
+  @extend %flex-box-col;
+  @extend %flex-center;
+  margin-top: 25px;
+
+  .miss-table {
+    thead {
+      tr {
+        td {
+          border: 1px solid $main-black;
+          padding: 5px 15px;
+        }
+      }
+    }
+
+    tbody {
+      tr {
+        td {
+          border: 1px solid $main-black;
+          padding: 5px 15px;
+
+          .Join {
+            padding: 8px 10px;
+            background-color: $main-black;
+            border-radius: 5px;
+            color: $main-white;
+          }
+
+          .Leave {
+            padding: 8px 10px;
+            background-color: $main-white;
+            border-radius: 5px;
+            color: $main-black;
+          }
+          
+        }
+      }
+    }
+  }
+}
